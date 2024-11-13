@@ -1,0 +1,1 @@
+curl -X POST http://localhost:5000/upload_pdf -F "file=@RIB_0537742531101.pdf" -F "watermark=Mon Watermark" -o RIB_0537742531101_wm.pdf
